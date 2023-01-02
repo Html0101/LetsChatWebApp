@@ -1,0 +1,14 @@
+.importantbox{
+    background-color: #1bc5efc7;
+    border-radius: 15px;
+    width: 350px;
+    height: 250px;
+    padding-top: 100px;
+}
+body{
+    background-color: #3caefaba;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
