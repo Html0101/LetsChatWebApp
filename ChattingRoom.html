@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="ChattingRoom.js"></script>
+        <link rel="stylesheet" type="text/css" href="ChattingRoom.css">
+    </head>
+    <body>
+        <h1 class="header">Lets Chat Web App <sup><img src="m2.png"></sup></h1>
+        <br>
+        <br>
+        <div>
+            <input type="text" class="form_control" placeholder="message" id="msg">
+            <button onclick="send()" id="send" class="btn btn-success">Send</button>
+        </div>
+        <div class="container" id="logoutt">
+            <button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out btn btn-danger">Log Out</button>
+        </div>
+        <div id="hold_data"></div>
+    </body>
+</html>

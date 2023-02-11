@@ -1,15 +1,15 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyAYLM61RYv5MUDBSnSgwwLZHi8HM8KlvSs",
-  authDomain: "kwitter-2065a.firebaseapp.com",
-  databaseURL: "https://kwitter-2065a-default-rtdb.firebaseio.com",
-  projectId: "kwitter-2065a",
-  storageBucket: "kwitter-2065a.appspot.com",
-  messagingSenderId: "29395929077",
-  appId: "1:29395929077:web:f98dc273078bd0833dc2bc"
-};
+  apiKey: "AIzaSyDvE3zYmd927gVHnrt-rVzvHOoW08ujsE4",
+  authDomain: "letschatwebapp-5ebe3.firebaseapp.com",
+  databaseURL: "https://letschatwebapp-5ebe3-default-rtdb.firebaseio.com",
+  projectId: "letschatwebapp-5ebe3",
+  storageBucket: "letschatwebapp-5ebe3.appspot.com",
+  messagingSenderId: "791203296034",
+  appId: "1:791203296034:web:ca956d6fe96b1c64c7eb7b"
+  };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
 
 
 
@@ -41,3 +41,11 @@ function redirectToRoomName(name)
   localStorage.setItem("room_name", names);
   window.location = "ChattingRoom.html";
 }
+
+function logout() 
+{ 
+  localStorage.removeItem("room_name");
+  localStorage.removeItem("names");
+  window.location("index.html")
+}
+
